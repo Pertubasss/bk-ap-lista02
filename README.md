@@ -1,11 +1,11 @@
 
 # Exercícios
-- Escreva um programa que declare e inicialize um vetor com 5 elementos inteiros e, em seguida, exiba esses elementos na tela.
-- Escreva um programa que declare e inicialize um vetor com 5 elementos inteiros e, em seguida, mostre o maior e menor valor.
-- Crie um programa que preencha uma matriz 3x3 com valores inteiros informados pelo usuário e depois exiba essa matriz na tela.
-- Escreva um programa que declare dois vetores de mesmo tamanho e calcule a soma dos elementos correspondentes de ambos os vetores, armazenando o resultado em um terceiro vetor. Em seguida, exiba o vetor resultante.
-- Crie uma matriz 4x4 de números inteiros aleatórios e encontre o maior valor presente nela.
-- Busca de Dados em uma Matriz de Animais
+-01 Escreva um programa que declare e inicialize um vetor com 5 elementos inteiros e, em seguida, exiba esses elementos na tela.
+-02 Escreva um programa que declare e inicialize um vetor com 5 elementos inteiros e, em seguida, mostre o maior e menor valor.
+-03 Crie um programa que preencha uma matriz 3x3 com valores inteiros informados pelo usuário e depois exiba essa matriz na tela.
+-04 Escreva um programa que declare dois vetores de mesmo tamanho e calcule a soma dos elementos correspondentes de ambos os vetores, armazenando o resultado em um terceiro vetor. Em seguida, exiba o vetor resultante.
+-05 Crie uma matriz 4x4 de números inteiros aleatórios e encontre o maior valor presente nela.
+-06 Busca de Dados em uma Matriz de Animais
   Suponha que você tenha uma matriz que representa uma lista de animais, onde cada linha contém as seguintes propriedades de um animal:
     Nome
     Espécie
