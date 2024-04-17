@@ -1,4 +1,6 @@
-﻿namespace Exercicio01
+﻿using ExibirMatriz;
+
+namespace Exercicio01
 {
     internal class Program
     {
@@ -8,9 +10,13 @@
 
             Console.WriteLine(">>> Exibir array com 5 elementos inteiros <<<\n");
 
-            int[] ints = new int[5] { 1, 2, 3, 4, 5 };
+            //int[] ints = new int[5] { 1, 2, 3, 4, 5 };
 
-            Console.WriteLine("Os elementos informados são: \n");
+            int[] ints = new int[5];
+
+            ExHelper.PreencherVetor(ints);
+
+            Console.WriteLine("\nOs elementos informados são: \n");
 
             foreach (int element in ints)
             {

@@ -17,7 +17,15 @@ namespace Exercicio03
                 for (int j = 0; j < 3; j++)
                 {
                     Console.Write($"Digite um valor para a posição {i}x{j}: ");
-                    matriz[i, j] = int.Parse(Console.ReadLine());
+                    if(int.TryParse(Console.ReadLine(), out int numDigitado))
+                    {
+                        matriz[i, j] = numDigitado;
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("O numero digitado não é um valor inteiro, tente novamente...");
+                    }
                 }
             }
 
@@ -25,7 +33,7 @@ namespace Exercicio03
 
             Console.WriteLine("Valores digitados na matriz:");
 
-            MatrizHelper.ExibirMatriz(matriz, 3);
+            ExHelper.ExibirMatriz(matriz, 3);
         }
     }
 }

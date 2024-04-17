@@ -8,9 +8,25 @@
 
             Console.WriteLine(">>> Exibir array com 5 elementos inteiros e exibir o maior e menor valor <<<\n");
 
-            int[] ints = { 40, 10, 25, 4, 5 };
+            //int[] ints = { 40, 10, 25, 4, 5 };
 
-            Console.WriteLine("Os valores do array são: \n");
+            int[] ints = new int[5];
+
+            for (int i = 0; i < ints.Length; i++)
+            {
+                Console.Write("Digite um número inteiro: ");
+                if (int.TryParse(Console.ReadLine(), out int numDigitado))
+                {
+                    ints[i] = numDigitado;
+                }
+                else
+                {
+                    Console.WriteLine("O valor digítado não é um numero inteiro, tente novamente...");
+                    i--;
+                }
+            }
+
+            Console.WriteLine("\nOs valores do array são: \n");
 
             foreach (int element in ints)
             {
@@ -29,7 +45,7 @@
             Console.WriteLine($"Maior valor: {maior}");
         }
 
-        static int MenorValor(int[] ints)
+        private static int MenorValor(int[] ints)
         {
             int menor = ints[0];
 
@@ -44,7 +60,7 @@
             return menor;
         }
 
-        static int MaiorValor(int[] ints)
+        private static int MaiorValor(int[] ints)
         {
             int menor = ints[0];
 

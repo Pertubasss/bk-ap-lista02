@@ -24,7 +24,7 @@ namespace Exercicio05
 
             Console.WriteLine("A matriz criada aleátoriamente é: ");
 
-            MatrizHelper.ExibirMatriz(matriz, 4);
+            ExHelper.ExibirMatriz(matriz, 4);
 
             int maiorValor = matriz.Cast<int>().Max();
 
